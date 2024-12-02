@@ -1,0 +1,188 @@
+.pt-xl-8 {
+  padding-top: 4rem;
+}
+
+.mt-n5 {
+  margin-top: -3rem;
+}
+
+.mt-sm-n7 {
+  margin-top: -4.5rem;
+}
+
+.mt-md-n8 {
+  margin-top: -5rem;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.card-header {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 15px;
+}
+
+.card-body {
+  padding-top: 20px;
+}
+
+.form-floating {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+}
+
+.form-control:focus {
+  border-color: #218BBB;
+  box-shadow: 0 0 0 0.2rem rgba(41, 83, 128, 0.25);
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #0b5fb9;
+  color: #fff;
+}
+.sub-card{
+text-align: center;
+}
+
+.contact_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-shadow {
+  padding: 1.5rem;
+  margin-top: -100px; 
+}
+
+@media (min-width: 576px) {
+  .card-shadow {
+    padding: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-shadow {
+    padding: 3.5rem;
+  }
+}
+
+.card-header {
+  border-bottom: 1px solid #e5e5e5;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 1rem;
+}
+
+.card-body {
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-top: 1.25rem;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.border {
+  border: 1px solid #e5e5e5;
+}
+
+.carddetails {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.contact-title {
+  color: #218BBB;
+}
+
+.aboutSection {
+  z-index: 999;
+}
+
+#contact-btn {
+  background: #218BBB;
+}
+
+.contact-img {
+  margin-top: 60px; 
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body p,
+.card-body address,
+.card-body a {
+  font-size: 1rem; 
+  padding: 5px 0; 
+}
+
+.card-body h6 {
+  font-size: 1.125rem; 
+  padding-bottom: 10px; 
+}
+
+.card-body .text-primary-hover {
+  font-size: 1rem; 
+  padding: 5px 0;
+}
+
+.card-body .heading-color {
+  color: #218BBB; 
+}
+
+
+.card .mb-3,
+.card .mb-4 {
+  margin-bottom: 1.5rem; 
+}
+
+.card .mb-4 {
+  margin-bottom: 2rem; 
+}
+
+
+.info-card .card-body {
+  padding: 30px; 
+}
+
+.info-card .card-body h6 {
+  font-size: 1.2rem; 
+}
+
+.info-card .card-body p,
+.info-card .card-body address,
+.info-card .card-body a {
+  font-size: 1.1rem; 
+  padding: 10px 0; 
+}
+
+.info-card .card {
+  margin-bottom: 2rem; 
+}

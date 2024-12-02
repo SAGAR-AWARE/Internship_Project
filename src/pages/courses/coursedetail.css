@@ -1,0 +1,258 @@
+.backgroundimg {
+  background-color: rgb(62, 137, 186);
+  height: 230px;
+  width: 100%;
+}
+
+.courseheading {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+}
+
+  
+.main-image img {
+  
+  width: 100%;
+  height: 570px;
+}
+
+.backgroundimg {
+  background-color: rgb(62, 137, 186);
+  height: 230px;
+  width: 100%;
+}
+
+.courseheading {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+}
+.eduvibe-widget-details {
+  padding: 0 20px 20px;
+}
+
+.mt--35 {
+  margin-top: 35px !important;
+}
+
+/* .course-detail-content {
+  margin-right: 30px;
+} */
+
+#sticky-position {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 100px;
+  color: #fff;
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.textlayout {
+  font-size: 25px;
+  font-weight:400 !important;
+  text-align: justify;
+}
+
+.eduvibe-widget {
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  padding: 30px 40px;
+}
+
+.eduvibe-sidebar.course-details-sidebar .eduvibe-widget {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.eduvibe-sidebar.course-details-sidebar
+  .eduvibe-widget
+  .eduvibe-widget-details {
+  padding: 0 20px 20px;
+}
+
+.widget-content ul li {
+  color: black;
+  list-style: none;
+}
+.widget-content ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.eduvibe-widget-details .widget-content ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eduvibe-widget-details .widget-content ul li span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.buttonlayout {
+  margin: 0px 0px;
+  padding: 13px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.buttonlayout:hover {
+  background-color: rgb(76, 120, 192);
+  color: white;
+}
+
+.listadjustment ul li {
+  padding: 7px;
+}
+
+.listadjustment ul {
+  padding-left: 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .eduvibe-widget {
+    padding: 30px 20px;
+  }
+}
+
+@media only screen and (min-width: 319px) and (max-width: 415px) {
+  .course-detail-content {
+    width: 100%;
+    margin: auto;
+  }
+
+  #sticky-position {
+    width: 100%;
+  }
+
+  .main-image img {
+    height: 100%;
+  }
+}
+
+/* breadcrumb css */
+.coursedetail-heading {
+  border: none;
+  color: white;
+  max-width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 78px;
+  text-align: left;
+  background-color: var(--primary-color);
+}
+
+/* Remove underline from breadcrumb links */
+.breadcrumb-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change active color to orange and remove underline */
+.custom-breadcrumb .breadcrumb-item.active,
+.custom-breadcrumb .breadcrumb-item.active>LInk {
+  color: #62D2FF;
+  /* Change to the color you want */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* =============================enrollment form section =========================== */
+
+.enroll-form {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.173);
+  margin-bottom: 3rem;
+  margin-top: 20px;
+}
+
+.enroll-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #222f5ddc;
+  border-radius: 5px;
+  padding: 3px 15px;
+  font-weight: 600;
+  line-height: 1.85;
+  display: inline-block;
+  font-family: Open Sans, sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.enroll-form .form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  font-family: var(--font-primary);
+  height: 50px;
+  font-size: 16px;
+  padding: 0 15px;
+  color: var(--color-body);
+}
+
+.enroll-form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.enroll-form .btn-primary {
+  border-radius: 5px;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  background: var(--color-primary);
+  padding: 0 30px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.4s;
+  border: 0;
+  background-color: #0056b3;
+}
+.enroll-form .btn-primary:hover {
+  background-color: #0077b3;
+}
+
+@media (max-width: 768px) {
+  .enroll-form.form-control {
+    padding: 10px 15px;
+  }
+
+  .enroll-form .btn-primary {
+    padding: 10px 20px;
+  }
+}
+.coursecard-header{
+  font-size: 18px;
+  font-weight: 600px;
+}
+.intro-title{
+  font-size: 18px;
+}

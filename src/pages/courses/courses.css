@@ -1,0 +1,284 @@
+.slick-prev {
+  left: -15px !important;
+  z-index: 1;
+}
+
+.slick-next {
+  right: -8px !important;
+  z-index: 1;
+}
+
+/* .imgheightadjust {
+  height: 250px;
+} */
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px !important;
+  color: #218bbb !important;
+}
+
+.shadowapplying {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-alignment {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+.card-adjustment {
+  position: relative;
+  cursor: pointer;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  border: none !important;
+  width: 95% !important;
+  border-radius: 90px;
+  box-shadow: 2px 1px 7px -2px black;
+  margin-bottom: 20px;
+}
+
+
+.btncardadjustment {
+  background-color: #62d2ff;
+  color: #fff;
+  padding: 0px 30px;
+  margin: -18px 22px;
+  position: relative;
+  top: -40px;
+  border: none;
+}
+
+.allcourse-heading{
+  color: #0E4D63;
+  text-align: center;
+  padding: 20px;
+}
+.backgroundImgUrl {
+  background-image: url("../../../public/images/home/Section\ Devider.png");
+  background-size: 100% 100%;
+  padding: 20px;
+}
+
+.btncardadjustment2 {
+  background-color: #62d2ff;
+  color: #fff;
+  padding: 0px 30px;
+  margin: 12px 23px;
+  position: relative;
+  top: -26px;
+  border: none;
+}
+
+.card-adjustment:hover .promo {
+  opacity: 0;
+}
+
+.promo {
+  opacity: 1;
+  transition: all 0.7s ease;
+}
+
+.slick-slide > div {
+  margin: 0 0px;
+}
+
+.applyinghover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.1s ease;
+  background-color: #153441;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-adjustment:hover .applyinghover {
+  opacity: 1;
+}
+
+.applyinghover h6,
+.applyinghover p {
+  margin: 0;
+}
+
+.text_headlingfontsize {
+  font-size: 15px;
+}
+
+.text_btnfontsize {
+  font-size: 15px;
+  /* padding-top: 10px; */
+  margin: 20px 0px;
+}
+
+.upcomingcourseheading {
+  font-size: 36px;
+  text-align: center;
+  color: #153441;
+  padding: 20px;
+}
+
+.couserbtnlayout {
+  border: none;
+  width: 100px;
+  height: 32px;
+  text-align: center;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.214);
+}
+.Upcomingcourse-Header{
+font-size: 36px;
+text-align: center;
+color: #0E4D63;
+}
+.applyinghover Button {
+  background-color: white;
+  color: rgb(3, 3, 49);
+  cursor: pointer;
+}
+
+.applyinghover Button:hover {
+  background-color: rgb(3, 3, 49);
+  color: white;
+}
+
+
+.viewmorebtn {
+  background-color: #153441 !important;
+  border: none !important;
+  padding: 13px 43px !important;
+  font-size: 14px !important;
+  margin-top: 40px;
+}
+
+.knowmorebtn {
+  background-color: white;
+  border: none;
+  justify-items: left;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+.knowmorebtn2{
+  background-color: white;
+  border: none;
+  justify-items: left;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 27px 207px;
+  margin-left: -2px
+}
+
+.coursePriceHeading {
+  margin-left: 20px;
+  color: #565959;
+}
+
+.courseOfferPrice {
+  font-size: 20px;
+  /* font-weight: 700; */
+}
+
+.courseOriginalPrice {
+  text-decoration: line-through;
+  color: #565959;
+  margin-left: 5px;
+}
+
+#course-heading {
+  color: #fff;
+  font-size: 36px;
+  padding: 20px;
+  text-align: center;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.registration-text {
+  animation: fadeInOut 3s infinite;
+}
+
+@media only screen and (min-width: 315px) and (max-width: 425px) {
+  .slick-prev {
+    left: -10px !important;
+    z-index: 1;
+  }
+
+  .adjustCourseCarosal {
+    margin-left: 20px;
+  }
+
+  .card-adjustment .buttonscreen {
+    width: 100%;
+  }
+
+  .slick-next {
+    right: -2px !important;
+    z-index: 1;
+  }
+
+  #course-heading {
+    margin-left: 23px;
+  }
+}
+
+/* Media query for tablet screen sizes (768px to 1024px) */
+@media only screen and (min-width: 626px) and (max-width: 757px) {
+  .course-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .card-adjustment .buttonscreen {
+    width: 80px;
+  }
+}
+
+/* Media query for tablet screen sizes (768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .card-adjustment .buttonscreen {
+    width: 150px;
+    /* Adjust button width for tablet screens */
+  }
+
+  .card-adjustment {
+    margin-bottom: 20px;
+    /* Add margin bottom for spacing */
+  }
+
+  .applyinghover {
+    padding: 10px;
+    /* Adjust padding for better layout on tablets */
+  }
+
+  /* .imgheightadjust {
+    height: 200px;
+    
+  } */
+
+  .viewmorebtn {
+    padding: 10px;
+    /* Adjust padding for view more button on tablets */
+    font-size: 15px;
+    /* Adjust font size for tablets */
+  }
+}

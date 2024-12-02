@@ -1,0 +1,291 @@
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 30px !important;
+    line-height: 1;
+    opacity: .75;
+    color: black !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -35px !important;
+    z-index: 1;
+}
+
+.slick-next {
+    right: -25px !important;
+    z-index: 1;
+}
+
+/* css for Placement.js */
+
+/* .images {
+    height: 360px;
+    width: 555px;
+} */
+
+.placementDescripContainer {
+    margin-top: 90px;
+}
+
+.placementRow {
+    margin-bottom: 100px;
+}
+
+.placementDescripCol {
+    margin: auto;
+    text-align: justify;
+}
+
+
+/* css for PlacementHighlights.js */
+
+.bgcontainer1 {
+    text-align: center;
+    margin-bottom: 100px;
+    color: #222f5d;
+}
+
+.paragraph {
+    color: #222f5d;
+    font-size: 16px;
+}
+
+.bgcontainer2 {
+    border: 2px;
+    /* background-color: #b6d03e; */
+    /* background-color: rgb(108, 183, 210); */
+    background-color: #218bbb;
+    padding: 74px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.highlightHeading {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+
+.placement-icon {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 80px;
+    color: white;
+}
+.content{
+    text-align: center;
+}
+
+.placementCounter {
+    color: white;
+}
+
+.counterDescription {
+    color: white;
+}
+
+/* css for StudPlacements.js */
+
+.bgimg {
+    /* background-image: url('../shared/images/home-testimonial.png'); */
+    /* background-image: url('../shared/images/blue-bgcolor.png'); */
+    position: relative;
+    padding: 90px;
+    /* padding-left: 100px;
+    padding-bottom: 160px;
+    padding-right: 175px; */
+    margin-top: -30px;
+    margin-bottom: 20px;
+    /* height: 700px;
+    display: flex; */
+    box-shadow: 10px 19px 53px rgba(48, 41, 41, 0.2);
+}
+
+.studimg {
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    height: 500px;
+    width: 400px;
+    border-bottom: 2px solid rgb(237, 200, 213);
+    /* box-shadow: 10px 10px rgb(65, 169, 204); */
+
+}
+
+.stdnames {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.content {
+    position: relative;
+    padding-top: 70px;
+    padding-left: 120px;
+}
+
+.studentName {
+    font-size: 20px;
+}
+
+.placementCards {
+    width: 25rem;
+    border: none;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.placedStdCol {
+    margin: auto !important;
+}
+
+.p1 {
+    /* color: #222f5d; */
+    font-weight: 600;
+}
+
+.p2 {
+    font-size: 36px;
+    color: #218bbb;
+    font-weight: 700;
+}
+
+.p4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #222f5d;
+}
+
+@media ((min-width: 992px) and (max-width: 1200px)) {
+    .images {
+        width: 470px;
+    }
+}
+
+@media ((min-width: 320px) and (max-width: 375px)) {
+
+    /* .images {
+        width: 300px;
+        height: auto;
+    } */
+
+    .placementcard {
+        width: 250px;
+        margin: auto;
+    }
+
+    .content {
+        margin-left: -119px;
+        margin-top: -44px;
+    }
+
+    .studimg {
+        height: auto;
+    }
+
+    .bgimg {
+        /* height: 795px; */
+        padding: 35px;
+        width: min-content;
+        margin-left: auto;
+    }
+}
+
+
+@media ((min-width: 370px) and (max-width: 425px)) {
+
+    /* .images {
+        width: 350px;
+        height: auto;
+    } */
+
+    .placementcard {
+        /* width: 350px; */
+        width: 310px;
+        margin: auto;
+    }
+
+    .bgimg {
+        height: auto;
+        width: min-content;
+        margin-left: auto;
+        padding: 30px;
+    }
+
+    .studimg {
+        height: auto;
+    }
+
+    .content {
+        margin-left: -119px;
+        margin-top: -44px;
+    }
+
+    .content {
+        padding-left: 100px;
+    }
+
+    .slick-prev {
+        left: -12px !important;
+        z-index: 1;
+    }
+
+    .slick-next {
+        right: -2px !important;
+        z-index: 1;
+    }
+}
+
+@media ((min-width: 426px) and (max-width: 767px)) {
+
+    /* .images {
+        width: 500px;
+        height: 285px;
+    } */
+
+    .placementcard {
+        width: 355px;
+        margin: auto;
+    }
+
+    .bgimg {
+        height: auto;
+        width: min-content;
+        margin-left: auto;
+    }
+
+    .studimg {
+        height: auto;
+    }
+
+    .content {
+        margin-left: -83px;
+        margin-top: -44px;
+    }
+
+    .classImg {
+        width: 680px;
+    }
+}
+
+@media ((min-width: 768px) and (max-width: 991px)) {
+    .bgimg {
+        height: auto;
+    }
+
+    .studimg {
+        height: auto;
+    }
+
+    .placementcard {
+        margin-left: 50px;
+    }
+
+    .images {
+        margin: 10px;
+    }
+}

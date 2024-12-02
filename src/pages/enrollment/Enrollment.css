@@ -1,0 +1,85 @@
+
+*{
+  margin:0;
+  padding:0
+}
+ .enrollment-form {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  margin-bottom: 3rem;
+}
+
+.enrollment-container {
+  margin: 0 auto; 
+  padding: 20px; 
+  width:70%;
+  padding: 30px;
+
+
+}
+
+
+.enrollment-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #222f5d;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 3px 15px;
+  font-weight: 600;
+  line-height: 1.85;
+  display: inline-block;
+  font-family: Open Sans, sans-serif;
+}
+
+
+
+
+.enrollment-form .form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  margin-bottom: 20px; 
+  font-family: var(--font-primary);
+  height: 50px;
+  font-size: 16px;
+  padding: 0 15px;
+  color: var(--color-body);
+}
+
+.enrollment-form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.enrollment-form .btn-primary {
+  border-radius: 5px;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  background: var(--color-primary);
+  padding: 0 30px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: .4s;
+  border: 0;
+  background-color: #0056b3;
+  
+}
+.enrollment-form .btn-primary:hover {
+  background-color: #0077b3;
+}
+
+@media (max-width: 768px) {
+  .enrollment-form .form-control {
+    padding: 10px 15px;
+  }
+
+  .enrollment-form .btn-primary {
+    padding: 10px 20px;
+  }
+}

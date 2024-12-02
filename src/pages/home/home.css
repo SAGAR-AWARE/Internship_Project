@@ -1,0 +1,463 @@
+:root {
+  --primary-color: #218bbb;
+  /* Define your primary color here */
+  --secondary-color: #0e4d63;
+  /* Define your secondary color here */
+}
+
+/*--------------------------------------------slider css-------------------------------------*/
+.container-body {
+  margin: auto;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.div-body {
+  background-size: 100% 100%;
+  background-image: url(../../../public/images/home/Section\ Devider.png);
+  padding-bottom: 60px;
+}
+.slide-container {
+  display: flex;
+  /* width: calc(250px *18); */
+  animation: scroll 30s linear infinite;
+}
+.slider-container {
+  max-width: 1320px;
+}
+.slider-image {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 1s;
+  border-radius: 20px;
+  padding: 15px;
+}
+.slider-container-main-heading {
+  font-weight: bolder;
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+/* For mobile devices in portrait mode */
+@media (max-width: 600px) {
+  .slider-container {
+    max-width: 400px;
+  }
+  .slider-image {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+/* For mobile devices in landscape mode */
+@media (max-width: 600px) and (orientation: landscape) {
+  .slider-container {
+    max-width: 800px;
+  }
+  .slider-image {
+    height: 150px;
+    width: 150px;
+  }
+}
+/* For screens smaller than 400px */
+@media (max-width: 450px) {
+  .slider-container {
+    max-width: 300px;
+  }
+  .slider-image {
+    height: 100px;
+    width: 100px;
+  }
+  .div-body {
+    padding: inherit;
+  }
+}
+
+/*================================= home page section start============================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-section {
+  padding: 100px 0px 30px 0px;
+}
+
+.home-content-block {
+  width: 100%;
+  height: 100%;
+  text-align: start;
+}
+
+.home-content-inner {
+  display: inline-block;
+  padding-top: 90px;
+  margin-bottom: 20px;
+}
+
+.home-content-inner-block {
+  color: #222f5d;
+}
+
+.home-content-block {
+  opacity: 0;
+  animation: fadeIn 6s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.home-intro-text {
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.home1 {
+  color: #218bbb;
+  font-size: 60px;
+  margin-right: 20px;
+  /* line-height: 1.16; */
+  font-weight: 700;
+  display: inline-block;
+}
+
+.home2 {
+  color: #0e4d63;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.home3 {
+  color: #0e4d63;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.home-summery {
+  margin-top: 30px;
+  font-size: 18px;
+  /* line-height: 1.5; */
+}
+
+.home-image {
+  /* height: 70vh; */
+  /* margin-left: 100px; */
+  max-width: 100%;
+  /* vertical-align: middle; */
+  /* display: inline-block; */
+}
+
+.home-image {
+  opacity: 0;
+  /* Start with opacity 0 */
+  animation: wipeAnimation 4s ease forwards;
+}
+
+@keyframes wipeAnimation {
+  0% {
+    opacity: 1;
+    /* Start with opacity 1 */
+    clip-path: circle(0% at 50% 50%);
+    /* Start with a small circle */
+  }
+
+  100% {
+    opacity: 1;
+    clip-path: circle(100% at 50% 50%);
+    /* End with a full circle */
+  }
+}
+
+.button .btn {
+  color: #fff;
+  background-color: #218bbb;
+  border-radius: 5px;
+  padding: auto;
+  font-size: 16px;
+  font-weight: 700;
+  /* line-height: 1.85; */
+  /* transition: border-color .3s, background-color .3s, color .3s; */
+  display: inline-block;
+  width: 200px;
+}
+
+@media only screen and (max-width: 576px) {
+  .home-section {
+    margin-top: 80px;
+    margin-right: 20px;
+  }
+
+  .home-content-inner {
+    padding-top: 20px;
+  }
+
+  .home1,
+  .home2,
+  .home3 {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  .home-summery {
+    font-size: 14px;
+  }
+
+  .button .btn {
+    font-size: 10px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+  }
+
+  @media only screen and (max-width: 576px) {
+    .home-image {
+      height: auto;
+      max-width: 100%;
+      margin-left: 0;
+    }
+  }
+}
+
+/* =============================================Home-page-about==================================================== */
+/* styling for the about us section */
+.aboutus {
+  background-color: white;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  /* padding: 0 15px;  */
+}
+.about-row {
+  margin: 20px 0;
+}
+
+.about-div {
+  max-width: 100%;
+  height: 510px;
+}
+
+.homeaboutimage {
+  /* margin-top: 10px; */
+  border-radius: 5px;
+  max-width: 100%;
+  max-height: 100%;
+
+  object-fit: cover;
+}
+
+/* Pre-title styling */
+.pre-title {
+  font-weight: 700;
+  font-size: 36px;
+  /* line-height: 26px; */
+  display: inline-block;
+  /* text-transform: uppercase; */
+  margin-bottom: 5px;
+  /* letter-spacing: 0.1em; */
+  color: #218bbb;
+}
+
+/* Content styling within the home section */
+.homeContent {
+  text-align: justify;
+}
+
+/* Title styling */
+.about-title {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  /* line-height: 1.4; */
+  color: #0e4d63;
+  word-break: break-word;
+}
+
+/* Description styling */
+.description-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 26px; */
+  padding-left: 20px;
+  position: relative;
+  margin: 0 0 30px;
+  color: #6f6b80;
+}
+
+.description::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  background: #218bbb;
+  height: 100%;
+}
+
+/* Button styling */
+.aboutus-btn {
+  margin-top: 10px;
+}
+
+a.btn-about {
+  /* border-radius: 5px; */
+  display: inline-block;
+  /* height: 50px; */
+  /* line-height: 50px; */
+  padding: 10px;
+  color: #ffffff;
+  background: #218bbb;
+  font-size: 14px;
+  /* font-weight: 700; */
+  transition: 0.4s;
+  border: 0;
+  text-decoration: none;
+  /* font-family: sans-serif; */
+  border-radius: 5px;
+}
+
+a.btn-about:hover {
+  background-color: rgb(6, 79, 106);
+}
+
+.about-container {
+  margin-bottom: 50px;
+}
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .aboutus {
+    margin-top: 50px;
+    padding: 0 10px;
+  }
+
+  .aboutus-btn {
+    margin-top: 20px;
+  }
+
+  a.btn-about {
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+  }
+
+  .pre-title {
+    margin-top: 10px;
+  }
+
+  .about-div {
+    max-width: 100%;
+    height: 410px;
+  }
+}
+
+/* ===============================================Home-page-about end====================================================== */
+/* -------------------------------------------Counter CSS---------------------------------------------------- */
+.counter-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+  margin: 50px 0px 50px 0px;
+
+  justify-content: space-between;
+}
+.counter-logo {
+  height: 66px;
+  margin: 10px;
+  background-color: #fff;
+  padding: 5px;
+}
+.counter-logo svg {
+  width: 100%;
+  height: 100%;
+  fill: #ffffff;
+}
+.counter-cardtext {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 10px;
+  color: #0e4d63;
+}
+.counter-title {
+  color: #0e4d63 !important;
+}
+.counter-card {
+  width: 20%;
+  border: none;
+  box-shadow: 1px 2px 9px -7px;
+  height: 190px;
+  text-align: center;
+
+}
+/* Responsive Styles for Screens  */
+
+@media (max-width: 1024px) {
+  .counter-container {
+    flex-direction: column;
+  }
+  .counter-card {
+    width: 56% !important;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 30px;
+    
+  }
+}
+@media (max-width: 768px) {
+  .counter-container {
+    flex-direction: column;
+  }
+  .counter-card {
+    width: 56% !important;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 30px;
+    
+  }
+}
+@media (max-width: 414px) {
+  .counter-container {
+    flex-direction: column;
+  }
+  .counter-card {
+    width: 70% !important;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 25px;
+    
+  }
+}
